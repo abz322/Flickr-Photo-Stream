@@ -1,0 +1,1085 @@
+  @font-face {
+    font-family: "animadd";
+    src: url("../font/fonts/animadd.eot");
+    src: url("../font/fonts/animadd.eot?#iefix") format("embedded-opentype"), url("../font/fonts/animadd.ttf") format("truetype"), url("../font/fonts/animadd.svg#animadd") format("svg"), url("../font/fonts/animadd.woff") format("woff");
+    font-weight: normal;
+    font-style: normal
+}
+[data-icon]:before {
+    font-family: "animadd" !important;
+    content: attr(data-icon);
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: "animadd" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+.icon-animadd-logo:before {
+    content: "a"
+}
+@font-face {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: local("Roboto Condensed Regular"), local("RobotoCondensed-Regular"), url(http://themes.googleusercontent.com/static/fonts/robotocondensed/v9/Zd2E9abXLFGSr9G3YK2MsFzqCfRpIA3W6ypxnPISCPA.woff) format("woff")
+}
+section.photoFeed {
+    height: 950px;
+    width: 1240px;
+}
+html {
+    background-color: #C5C5C5;
+    min-width: 320px
+}
+.header {
+    height: 252px
+}
+body {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%
+}
+::-webkit-scrollbar {
+    width: 12px
+}
+::-webkit-scrollbar-track {
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);*/
+    -webkit-border-radius: 10px;
+    border-radius: 10px
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #333333;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5)
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: #333333
+}
+.site-name {
+    font-size: 50px;
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+    top: -3px;
+    color: #FFFFFF;
+    text-shadow: -4px 4px #282828;
+    position: relative
+}
+.site-slogan {
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: -13px;
+    text-shadow: -2px 2px #282828
+}
+section {
+    font-family: "Roboto Condensed";
+    background-color: #ffffff;
+    display: inline-block;
+    position: relative;
+    top: -252px;
+    padding: 5%;
+    margin-top: 30px;
+    border-radius: 10px
+}
+.footer {
+    font-family: "Roboto Condensed"
+}
+.gradient {
+    opacity: 0.4;
+    z-index: -1;
+    width: 44%
+}
+.gradient img {
+    width: 88%;
+    height: 252px
+}
+.gradient-x {
+    opacity: 0.4;
+    vertical-align: top;
+    display: inline-block;
+    float: right;
+    position: relative;
+    top: -257px;
+    z-index: 0;
+    width: 44%
+}
+.gradient-x img {
+    width: 88%;
+    height: 252px;
+    float: right
+}
+#banner-colour {
+    background-color: #5993ff;
+    z-index: -1;
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    height: 252px
+}
+iframe {
+    float: left;
+    border: none;
+    /*height: 159px;*/
+    /*width: 161px;*/
+    position: relative;
+    margin-right: -100px;
+    /*top: 51px*/
+}
+iframe#flickr {
+    width: 1334px !important;
+    height: 750px !important;
+}
+.banner-content {
+    position: relative;
+    top: -252px;
+    height: 252
+}
+.banner-left {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    float: left;
+    margin-left: 25px;
+    height: auto;
+    margin-top: 135px
+}
+.banner-right {
+    text-align: right;
+    vertical-align: top;
+    display: inline-block;
+    float: right;
+    width: 260px;
+    position: relative;
+    margin-right: 45px
+}
+.logo {
+    font-family: "animadd";
+    font-size: 100px;
+    color: #FFFFFF;
+    float: left;
+    margin-top: -32px;
+    text-shadow: -4px 4px #282828
+}
+.footer {
+    height: 250px;
+    background-color: #282836;
+    width: 100%
+}
+.footer-content {
+    color: #FFFFFF;
+    width: 40%;
+    padding-left: 10px
+}
+.menu {
+    position: absolute;
+    z-index: 5;
+    margin-left: auto;
+    margin-right: auto;
+    width: inherit;
+    top: 210px;
+    background-color: #282828;
+    opacity: 0.8;
+    height: 42px
+}
+ul {
+    position: relative;
+    top: -5px
+}
+li {
+    display: inline-block;
+    color: #FFFFFF;
+    font-family: "Roboto Condensed";
+    padding-right: 10px;
+    font-size: larger;
+    cursor: pointer
+}
+li h1 {
+    font-size: large;
+    margin: 0px
+}
+.share {
+    height: 252px;
+    float: right
+}
+.share .share-icons {
+    height: 44px;
+    border: solid;
+    width: 40px;
+    border-radius: 25px;
+    overflow: hidden;
+    border-color: #ffffff;
+    position: relative;
+    float: left;
+    background-color: #FFCB59
+}
+.share .share-icons.instagram-icon {
+    top: 156px
+}
+.share .share-icons.instagram-icon:hover {
+    background-color: #517fa4
+}
+.share .share-icons.fb-icon {
+    top: 100px;
+    margin-left: -150px
+}
+.share .share-icons.fb-icon .fb-icon img {
+    margin-top: -263px
+}
+.share .share-icons.fb-icon:hover {
+    background-color: #3b5999
+}
+.share .share-icons.twitter-icon {
+    top: 53px;
+    margin-left: -137px
+}
+.share .share-icons.twitter-icon .twitter-icon img {
+    margin-top: -43px
+}
+.share .share-icons.twitter-icon:hover {
+    background-color: #00aced
+}
+.share .share-icons.tumblr-icon {
+    top: 19px;
+    margin-left: -104px
+}
+.share .share-icons.tumblr-icon .tumblr-icon img {
+    margin-top: -131px
+}
+.share .share-icons.tumblr-icon:hover {
+    background-color: #385874
+}
+.share .share-icons.googleplus-icon {
+    top: 19px;
+    margin-left: 7px
+}
+.share .share-icons.googleplus-icon .googleplus-icon img {
+    margin-top: -175px
+}
+.share .share-icons.googleplus-icon:hover {
+    background-color: #DD4C39
+}
+.share .share-icons.stumbleupon-icon {
+    top: 53px;
+    margin-left: -14px
+}
+.share .share-icons.stumbleupon-icon .stumbleupon-icon img {
+    margin-top: -219px
+}
+.share .share-icons.stumbleupon-icon:hover {
+    background-color: #EB4923
+}
+.share .share-icons.linkedin-icon {
+    top: 100px;
+    margin-left: -33px
+}
+.share .share-icons.linkedin-icon .linkedin-icon img {
+    margin-top: -86px
+}
+.share .share-icons.linkedin-icon:hover {
+    background-color: #0080b2
+}
+.content-wrapper {
+    background-color: #FFCB59
+}
+.content {
+    padding: 2%
+}
+.content .photoFeed .photoFeedContent .lhs {
+    width: 42%;
+    float: left;
+    padding: 2%
+}
+.content .photoFeed .photoFeedContent .lhs img {
+    width: 86%;
+    border-radius: 150px;
+    border: solid;
+    border-color: #5993FF
+}
+.content .photoFeed .photoFeedContent .lhs ul li {
+    cursor: default
+}
+.content .photoFeed .photoFeedContent .rhs {
+    float: left;
+    width: 49%;
+    padding: 2%
+}
+.content .photoFeed .photoFeedContent .top-section {
+    float: left
+}
+.content .photoFeed .photoFeedContent .middle-section {
+    float: left
+}
+.content .photoFeed .photoFeedContent .middle-section ul li {
+    display: list-item;
+    color: #000000;
+    font-family: "Roboto Condensed";
+    padding-right: inherit;
+    font-size: larger;
+    margin-left: -5px
+}
+.content .photoFeed .photoFeedContent .bottom-section {
+    float: left
+}
+.content .photoFeed .photoFeedContent .bottom-section .center {
+    padding: 2%
+}
+.content .portfolio .portfolio-content a {
+    text-decoration: none;
+    color: #5993ff
+}
+.content .portfolio .portfolio-content a:hover {
+    text-decoration: underline;
+    color: #5993ff
+}
+.content .portfolio .portfolio-content .lhs {
+    width: 44%;
+    float: left;
+    padding: 2%
+}
+.content .portfolio .portfolio-content .lhs img {
+    width: 87%;
+    border: solid;
+    border-color: #5993FF;
+    margin-top: 79px
+}
+.content .portfolio .portfolio-content .rhs {
+    float: left;
+    width: 44%;
+    padding: 2%
+}
+.content .portfolio .portfolio-content .rhs img {
+    width: 87%;
+    border: solid;
+    border-color: #5993FF;
+    float: right;
+    margin-top: 73px
+}
+.content .portfolio .portfolio-content .top-section {
+    float: left
+}
+.content .portfolio .portfolio-content .middle-section {
+    float: left
+}
+.content .portfolio .portfolio-content .bottom-section {
+    float: left
+}
+.content .portfolio .portfolio-content .bottom-section .center {
+    padding: 2%
+}
+.content .search {
+    width: 89%
+}
+
+.content .search .searchContent {
+    width: 100%
+}
+.content .search .searchContent textarea {
+    margin-bottom: 10px;
+    resize: none
+}
+.content .search .searchContent textarea#query {
+    min-width: 180px;
+    width: 820px
+}
+.content .search .searchContent input {
+    margin-top: 10px
+}
+.content .search .searchContent #chars {
+    width: 40px;
+    float: left
+}
+.content .search .searchContent input[type="submit"] {
+    background-color: #FFCB59;
+    border: none;
+    padding: 1%;
+    border-radius: 7px;
+    font-family: "Roboto Condensed";
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer
+}
+.content .search .searchContent input[type="submit"]:hover {
+    background-color: #5993ff
+}
+.content .search .searchContent input[type="reset"] {
+    background-color: #FFCB59;
+    border: none;
+    padding: 1%;
+    border-radius: 7px;
+    font-family: "Roboto Condensed";
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer
+}
+.content .search .searchContent input[type="reset"]:hover {
+    background-color: #5993ff
+}
+.content .search .searchContent a {
+    text-decoration: none;
+    color: #5993ff
+}
+.content .search .searchContent a:hover {
+    text-decoration: underline;
+    color: #5993ff
+}
+#triangle {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 25px 43.3px 25px;
+    border-color: transparent transparent #ffffff transparent
+}
+@media screen and (min-width: 600px) and (max-width: 1280px) and (orientation: portrait) {
+    .logo {
+        margin-left: 10px
+    }
+    .banner-right {
+        margin-right: 17px
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+    .banner-left {
+        width: 41%
+    }
+    .site-name {
+        font-size: 36px
+    }
+    .site-slogan {
+        font-size: 13px
+    }
+    .title {
+        top: 23px;
+        position: relative
+    }
+    .banner-right {
+        width: 248px
+    }
+}
+@media screen and (min-width: 360px) and (max-width: 850px) and (orientation: landscape) {
+    .banner-left {
+        width: 47%;
+        margin-left: 0px
+    }
+    .site-name {
+        font-size: 34px
+    }
+    .site-slogan {
+        font-size: 13px
+    }
+    .title {
+        top: 23px;
+        position: relative
+    }
+    .banner-right {
+        width: 248px
+    }
+}
+@media screen and (max-width: 790px) {
+    .logo {
+        margin-left: 10px
+    }
+    .title {
+        display: none
+    }
+    .banner-left {
+        width: 14%
+    }
+}
+@media screen and (min-width: 360px) and (max-width: 750px) and (orientation: landscape) {
+    .banner-left {
+        width: 46%;
+        margin-left: 0px
+    }
+    .site-name {
+        font-size: 34px
+    }
+    .site-slogan {
+        font-size: 13px
+    }
+    .title {
+        top: 23px;
+        position: relative
+    }
+    .banner-right {
+        width: 248px;
+        margin-right: 0px
+    }
+}
+@media screen and (min-width: 360px) and (max-width: 640px) and (orientation: portrait) {
+    .logo {
+        margin-left: 33px
+    }
+    .banner-right {
+        margin-right: 17px
+    }
+}
+@media screen and (min-width: 360px) and (max-width: 640px) and (orientation: landscape) {
+    .banner-left {
+        width: 32%;
+        margin-left: 0px
+    }
+    .site-name {
+        font-size: 34px
+    }
+    .site-slogan {
+        font-size: 13px
+    }
+    .title {
+        top: 23px;
+        position: relative
+    }
+    .banner-right {
+        margin-right: 0px;
+        width: 248px
+    }
+}
+@media screen and (max-width: 640px) {
+    .banner-left {
+        width: 32%;
+        margin-left: 0px
+    }
+    .banner-right {
+        margin-right: 0px;
+        width: 248px
+    }
+}
+@media screen and (max-width: 500px) {
+    html {
+        min-width: 320px;
+        overflow-x: hidden
+    }
+    .logo {
+        font-family: "animadd";
+        font-size: 153px;
+        color: #fff;
+        float: left;
+        margin-top: -89px;
+        text-shadow: -4px 4px #282828;
+        margin-left: 19px
+    }
+    ul {
+        right: 15px
+    }
+    li {
+        font-size: 15px
+    }
+    #triangle {
+        display: none
+    }
+    .title {
+        display: none
+    }
+    section {
+        top: -470px
+    }
+    .banner-right {
+        bottom: 223px
+    }
+    iframe {
+        display: none
+    }
+    .share .share-icons.fb-icon {
+        top: 98px;
+        margin-left: -146px
+    }
+    .share .share-icons.twitter-icon {
+        top: 53px;
+        margin-left: -127px
+    }
+    .share .share-icons.tumblr-icon {
+        top: 19px;
+        margin-left: -95px
+    }
+    .share .share-icons.instagram-icon {
+        top: 10px;
+        margin-right: -2px
+    }
+    .banner-right {
+        margin-right: 0px
+    }
+    .content .photoFeed .photoFeedContent .rhs {
+        width: 96%
+    }
+    .content .photoFeed .photoFeedContent .lhs {
+        width: 96%
+    }
+    .content .photoFeed .photoFeedContent .lhs img {
+        width: 96%
+    }
+    .content .portfolio .portfolio-content .lhs {
+        width: 96%
+    }
+    .content .portfolio .portfolio-content .lhs img {
+        width: 96%
+    }
+    .content .portfolio .portfolio-content .rhs {
+        width: 96%
+    }
+    .content .portfolio .portfolio-content .rhs img {
+        width: 96%
+    }
+}
+@media screen and (max-width: 480px) and (orientation: portrait) {
+    body {
+        width: 100%
+    }
+    body .menu {
+        width: 100%
+    }
+    body .menu ul {
+        text-align: center;
+        min-width: 280px
+    }
+    .banner-right {
+        margin-right: 40px
+    }
+    .banner-left {
+        width: 32%;
+        margin-left: 67px
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) and (orientation: landscape) {
+    .logo {
+        margin-left: -10px
+    }
+    iframe {
+        display: block;
+        top: 60px
+    }
+}
+@media screen and (device-aspect-ratio: 40 / 71) {
+    html {
+        min-width: 320px;
+        overflow-x: hidden
+    }
+    .logo {
+        font-family: "animadd";
+        font-size: 237px;
+        color: white;
+        float: left;
+        margin-top: -89px;
+        text-shadow: -4px 4px #282828;
+        margin-left: 60px;
+        top: 171px;
+        position: relative
+    }
+    ul {
+        right: 15px
+    }
+    li {
+        font-size: 40px;
+        top: -4px;
+        position: relative
+    }
+    #triangle {
+        display: none
+    }
+    .title {
+        display: none
+    }
+    section {
+        top: -470px
+    }
+    .banner-right {
+        bottom: 223px
+    }
+    iframe {
+        display: none
+    }
+    .share .share-icons.fb-icon {
+        top: 215px;
+        margin-left: -193px
+    }
+    .share .share-icons.twitter-icon {
+        top: 125px;
+        margin-left: -162px
+    }
+    .share .share-icons.tumblr-icon {
+        top: 44px;
+        margin-left: -105px
+    }
+    .share .share-icons.instagram-icon {
+        top: 10px;
+        margin-right: -88px
+    }
+    .share .share-icons.stumbleupon-icon {
+        top: 120px;
+        margin-left: -32px
+    }
+    .share .share-icons.linkedin-icon {
+        top: 213px;
+        margin-left: -61px
+    }
+    .share .share-icons.googleplus-icon {
+        top: 44px;
+        margin-left: 99
+    }
+    .banner-right {
+        margin-right: 0px
+    }
+    .content .photoFeed .photoFeedContent .rhs {
+        width: 96%
+    }
+    .content .photoFeed .photoFeedContent .lhs {
+        width: 96%
+    }
+    .content .photoFeed .photoFeedContent .top-section .lhs {
+        width: 96%;
+        text-align: center
+    }
+    .content .photoFeed .photoFeedContent .lhs img {
+        width: 75%
+    }
+    .content .portfolio .portfolio-content .lhs {
+        width: 96%
+    }
+    .content .portfolio .portfolio-content .lhs img {
+        width: 96%
+    }
+    .content .portfolio .portfolio-content .rhs {
+        width: 96%
+    }
+    .content .portfolio .portfolio-content .rhs img {
+        width: 96%
+    }
+    .share .share-icons img {
+        width: 80px
+    }
+    .share .share-icons.instagram-icon .instagram-icon img {
+        margin-right: 3px
+    }
+    .share .share-icons.googleplus-icon .googleplus-icon img {
+        margin-top: -345px;
+        margin-right: 3px
+    }
+    .share .share-icons.stumbleupon-icon .stumbleupon-icon img {
+        margin-top: -437px;
+        margin-right: 3px
+    }
+    .share .share-icons.linkedin-icon .linkedin-icon img {
+        margin-top: -174px;
+        margin-right: 3px
+    }
+    .share .share-icons.tumblr-icon .tumblr-icon img {
+        margin-top: -260px;
+        margin-right: 3px
+    }
+    .share .share-icons.twitter-icon .twitter-icon img {
+        margin-top: -87px
+    }
+    .share .share-icons.fb-icon .fb-icon img {
+        margin-top: -527px;
+        margin-right: 5px
+    }
+    body {
+        width: 100%
+    }
+    body .menu {
+        width: 100%;
+        top: 336px;
+        height: 64px
+    }
+    body .menu ul {
+        text-align: center;
+        min-width: 280px
+    }
+    .banner-right {
+        margin-right: -228px;
+        height: 400px;
+        margin-top: -172px;
+        width: 100%
+    }
+    .banner-left {
+        width: 32%;
+        margin-left: 320px;
+        margin-top: -160px;
+        height: 400px
+    }
+    .banner-content {
+        width: 52%
+    }
+    #banner-colour {
+        height: 400px
+    }
+    .gradient img {
+        width: 88%;
+        height: 400px
+    }
+    .gradient-x img {
+        width: 88%;
+        height: 400px;
+        float: right;
+        position: relative;
+        top: -148px
+    }
+    .share .share-icons {
+        height: 89px;
+        border: solid;
+        width: 85px;
+        border-radius: 75px;
+        overflow: hidden;
+        border-color: #ffffff;
+        position: relative;
+        float: left;
+        background-color: #FFCB59
+    }
+    p {
+        font-size: 25px
+    }
+}
+@media screen and (device-aspect-ratio: 2 / 3) {
+    html {
+        min-width: 320px;
+        overflow-x: hidden
+    }
+    .logo {
+        font-family: "animadd";
+        font-size: 237px;
+        color: white;
+        float: left;
+        margin-top: -89px;
+        text-shadow: -4px 4px #282828;
+        margin-left: 60px;
+        top: 171px;
+        position: relative
+    }
+    ul {
+        right: 15px
+    }
+    li {
+        font-size: 40px;
+        top: -4px;
+        position: relative
+    }
+    #triangle {
+        display: none
+    }
+    .title {
+        display: none
+    }
+    section {
+        top: -470px
+    }
+    .banner-right {
+        bottom: 223px
+    }
+    iframe {
+        display: none
+    }
+    .share .share-icons.fb-icon {
+        top: 215px;
+        margin-left: -193px
+    }
+    .share .share-icons.twitter-icon {
+        top: 125px;
+        margin-left: -162px
+    }
+    .share .share-icons.tumblr-icon {
+        top: 44px;
+        margin-left: -105px
+    }
+    .share .share-icons.instagram-icon {
+        top: 10px;
+        margin-right: -88px
+    }
+    .share .share-icons.stumbleupon-icon {
+        top: 120px;
+        margin-left: -32px
+    }
+    .share .share-icons.linkedin-icon {
+        top: 213px;
+        margin-left: -61px
+    }
+    .share .share-icons.googleplus-icon {
+        top: 44px;
+        margin-left: 99
+    }
+    .banner-right {
+        margin-right: 0px
+    }
+    .content .photoFeed .photoFeedContent .rhs {
+        width: 96%
+    }
+    .content .photoFeed .photoFeedContent .lhs {
+        width: 96%
+    }
+    .content .photoFeed .photoFeedContent .top-section .lhs {
+        width: 96%;
+        text-align: center
+    }
+    .content .photoFeed .photoFeedContent .lhs img {
+        width: 75%
+    }
+    .content .portfolio .portfolio-content .lhs {
+        width: 96%
+    }
+    .content .portfolio .portfolio-content .lhs img {
+        width: 96%
+    }
+    .content .portfolio .portfolio-content .rhs {
+        width: 96%
+    }
+    .content .portfolio .portfolio-content .rhs img {
+        width: 96%
+    }
+    .share .share-icons img {
+        width: 80px
+    }
+    .share .share-icons.instagram-icon .instagram-icon img {
+        margin-right: 3px
+    }
+    .share .share-icons.googleplus-icon .googleplus-icon img {
+        margin-top: -345px;
+        margin-right: 3px
+    }
+    .share .share-icons.stumbleupon-icon .stumbleupon-icon img {
+        margin-top: -437px;
+        margin-right: 3px
+    }
+    .share .share-icons.linkedin-icon .linkedin-icon img {
+        margin-top: -174px;
+        margin-right: 3px
+    }
+    .share .share-icons.tumblr-icon .tumblr-icon img {
+        margin-top: -260px;
+        margin-right: 3px
+    }
+    .share .share-icons.twitter-icon .twitter-icon img {
+        margin-top: -87px
+    }
+    .share .share-icons.fb-icon .fb-icon img {
+        margin-top: -527px;
+        margin-right: 5px
+    }
+    body {
+        width: 100%
+    }
+    body .menu {
+        width: 100%;
+        top: 336px;
+        height: 64px
+    }
+    body .menu ul {
+        text-align: center;
+        min-width: 280px
+    }
+    .banner-right {
+        margin-right: -228px;
+        height: 400px;
+        margin-top: -172px;
+        width: 100%
+    }
+    .banner-left {
+        width: 32%;
+        margin-left: 320px;
+        margin-top: -160px;
+        height: 400px
+    }
+    .banner-content {
+        width: 52%
+    }
+    #banner-colour {
+        height: 400px
+    }
+    .gradient img {
+        width: 88%;
+        height: 400px
+    }
+    .gradient-x img {
+        width: 88%;
+        height: 400px;
+        float: right;
+        position: relative;
+        top: -148px
+    }
+    .share .share-icons {
+        height: 89px;
+        border: solid;
+        width: 85px;
+        border-radius: 75px;
+        overflow: hidden;
+        border-color: #ffffff;
+        position: relative;
+        float: left;
+        background-color: #FFCB59
+    }
+    p {
+        font-size: 25px
+    }
+}
+
+
+
+
+  img {
+    width: 200px;
+    height: 120px;
+    float: left;
+  }
+  .blocks {
+    width: 230px;
+    height: 400px;
+    display: inline-table;
+    /*float: left;*/
+    border-style: double;
+  }
+  .upperBlock {
+    width: 200px;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .flickrFrame {
+    /*height: 709px;*/
+    /*width: 1100px;*/
+    /*overflow-y: scroll;*/
+    margin: auto;
+
+  }
+  body {
+    max-height: 470px;
+  }
+  .lowerBlock {
+    width: 200px;
+    margin: auto;
+    margin-top: 40px;
+    overflow-y: scroll;
+    height: 160px;
+    overflow-x: hidden;
+  }
+  a.tagLinks {
+    padding: 1px;
+    float: left;
+  }
+  ::-webkit-scrollbar {
+    width: 12px;
+}
+
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #333333;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+::-webkit-scrollbar-track {
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);*/
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
