@@ -1,10 +1,11 @@
-  var flickerAPI = "https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
-  var flickerAPI2 = "https://api.flickr.com/services/rest/?";
-  var page = 1;
-var flickFeed;
-var counter = 0;
-var counter2 = 0;
-var tag = 'mountains';
+var flickerAPI = "https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",
+    flickerAPI2 = "https://api.flickr.com/services/rest/?", 
+    page = 1, 
+    flickFeed, 
+    counter = 0, 
+    counter2 = 0, 
+    tag = 'mountains';
+
 function setBlock( ) {
 
         $("<div>").attr("id", "block" + counter.toString()).appendTo(".flickrFrame");
